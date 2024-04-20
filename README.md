@@ -1,34 +1,47 @@
-0x04. UTF-8 Validation
+0x0A. Prime Game
 Algorithm
 Python
- By: Carrie Ybay, Software Engineer at Holberton School
  Weight: 1
- Project will start Mar 3, 2024 9:00 PM, must end by Mar 7, 2024 9:00 PM
- Checker was released at Mar 4, 2024 9:00 PM
+ Ongoing second chance project - started Apr 14, 2024 10:00 PM, must end by Apr 21, 2024 10:00 PM
  An auto review will be launched at the deadline
-For the “0x04. UTF-8 Validation” project, you will need to apply your knowledge in bitwise operations, understanding of the UTF-8 encoding scheme, and Python programming skills to validate whether a given dataset represents a valid UTF-8 encoding. Here’s a list of concepts and resources that will be helpful:
+In a nutshell…
+Auto QA review: 0.0/16 mandatory
+Altogether:  0.0%
+Mandatory: 0.0%
+Optional: no optional tasks
+For this project, you will need to leverage your understanding of prime numbers, game theory, and algorithm optimization to solve a competitive game scenario. The challenge involves determining the winner of a game based on the strategic removal of prime numbers and their multiples from a set of consecutive integers.
 
 Concepts Needed:
-Bitwise Operations in Python:
+Prime Numbers:
 
-Understanding how to manipulate bits in Python, including operations like AND (&), OR (|), XOR (^), NOT (~), shifts (<<, >>).
-Python Bitwise Operators
-UTF-8 Encoding Scheme:
+Understanding what prime numbers are.
+Efficient algorithms for identifying prime numbers within a range.
+Sieve of Eratosthenes:
 
-Familiarity with the UTF-8 encoding rules, including how characters are encoded into one or more bytes.
-Understanding the patterns that represent a valid UTF-8 encoded character.
-UTF-8 Wikipedia
-Characters, Symbols, and the Unicode Miracle
-The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets
-Data Representation:
+An efficient algorithm for finding all prime numbers up to any given limit, which can be particularly useful for this task.
+Game Theory:
 
-How to represent and work with data at the byte level.
-Handling the least significant bits (LSB) of integers to simulate byte data.
-List Manipulation in Python:
+Basic principles of competitive games where players take turns and the concept of optimal play.
+Understanding win conditions and strategies that lead to a win or loss.
+Dynamic Programming/Memoization:
 
-Iterating through lists, accessing list elements, and understanding list comprehensions.
-Python Lists
-Boolean Logic:
+Using previous results to make future calculations faster, potentially necessary for optimizing the solution for multiple rounds of the game.
+Python Programming:
 
-Applying logical operations to make decisions within the program.
-By studying these concepts and utilizing the resources provided, you will be equipped to tackle the UTF-8 validation project, effectively applying bitwise operations and logical reasoning to determine the validity of UTF-8 encoded data.
+Loops and conditional statements for implementing game logic and algorithms.
+Arrays and lists for storing the integers and tracking removed numbers.
+Resources:
+Prime Numbers and Sieve of Eratosthenes:
+
+Khan Academy: Prime Numbers: Introduction to prime numbers.
+Sieve of Eratosthenes in Python: A step-by-step guide to implementing the sieve algorithm in Python.
+Game Theory Basics:
+
+Game Theory Introduction: A simple explanation of game theory and strategic decision-making.
+Dynamic Programming:
+
+What Is Dynamic Programming With Python Examples: An introduction to dynamic programming with Python examples.
+Python Official Documentation:
+
+Python Lists: Managing lists in Python, useful for tracking the game state.
+By grasping these concepts and making use of the recommended resources, you will be well-equipped to approach the problem with a solid understanding of both the mathematical and programming challenges involved. The key to success in this project lies in applying efficient algorithms to manage the game’s state and making optimal decisions based on the game’s rules.
